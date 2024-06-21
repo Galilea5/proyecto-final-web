@@ -1,0 +1,77 @@
+.dashboard-container {
+  padding: 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tasks-section {
+  margin-bottom: 40px;
+}
+
+.tasks-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.task-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.task-card h3 {
+  margin-bottom: 10px;
+}
+
+.task-card p {
+  margin: 5px 0;
+}
+
+.task-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-2-button {
+  margin-top: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #1653ad;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.task-button:hover {
+  opacity: 0.9;
+}
+
+.task-button:not(.delete-button) {
+  background-color: #28a745;
+  color: white;
+}
+
+.task-button:not(.delete-button):hover {
+  background-color: #218838;
+}
